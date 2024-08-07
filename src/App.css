@@ -1,0 +1,191 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  color: green;
+  text-align: center;
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.todo-card {
+  background-color: #90EE90;
+  border: 2px solid #008000;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input,
+button,
+select {
+  margin: 5px;
+  padding: 8px;
+  min-width: 120px;
+}
+button {
+  color: white;
+  background-color: #0eeeab;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0ccc9a;
+}
+.edit-btn,
+.delete-btn {
+  visibility: visible;
+  opacity: 1;
+}
+.todo-card h3 {
+  margin: 0;
+}
+.todo-card p {
+  margin: 5px 0;
+}
+.todo-card span {
+  margin: 5px 0;
+}
+.todo-card button {
+  margin-right: 10px;
+}
+.filter-buttons {
+  margin-bottom: 10px;
+}
+.filter-buttons button {
+  margin-right: 5px;
+}
+.todo-list {
+  margin-top: 20px;
+}
+form {
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 20px;
+}
+form input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+form button {
+  background-color: #0eeeab;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  font-weight: bold;
+}
+.App {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+input,
+button,
+select {
+  margin: 5px;
+  padding: 8px;
+}
+input[type='text'] {
+  flex-grow: 1;
+  max-width: calc(50% - 10px);
+  /* Adjust this value as needed for better responsiveness */
+}
+button {
+  color: white;
+  background-color: #0eeeab;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #076c5a;
+}
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.todo-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.todo-card h3 {
+  font-size: 18px;
+  margin: 0;
+}
+.todo-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+.edit-btn,
+.delete-btn {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.edit-btn:hover {
+  background-color: #ddd;
+}
+.delete-btn:hover {
+  background-color: #f66;
+  color: white;
+}
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.filter-button {
+  background-color: #0eeeab;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  font-weight: bold;
+}
+.filter-button:last-child {
+  margin-right: 0;
+}
+.filter-button:hover {
+  background-color: blue;
+  color: #fff;
+}
+.filter-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
